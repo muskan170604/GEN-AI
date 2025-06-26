@@ -2,14 +2,19 @@
   "name": "day-1",
   "version": "1.0.0",
   "main": "DSA.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@google/genai": "^1.7.0"
-  }
+    "@google/genai": "^1.7.0",
+    "@google/generative-ai": "^0.24.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
