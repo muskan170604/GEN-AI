@@ -1,0 +1,17 @@
+{
+  "name": "day-1",
+  "version": "1.0.0",
+  "main": "function.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.7.0",
+    "i": "^0.3.7",
+    "readline-sync": "^1.4.10"
+  }
+}
