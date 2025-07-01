@@ -87,6 +87,7 @@ async function runAgent(userProblem) {
 
         You have to provide the terminal or shell command to the user they will directly execute it.
         `,
+
     tools: [{
         functionDeclarations: [executeCommandDeclaration]
     }],
@@ -150,6 +151,8 @@ async function runAgent(userProblem) {
 
 
 async function main() {
+
+    console.log("I am a cursor; Let's create a website")
     const userProblem = readlineSync.question("Ask me anything--> ");
     await runAgent(userProblem);
     main();
